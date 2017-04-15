@@ -17,10 +17,17 @@ public class sumMax {
 		}
 		return num3;
 	}
+    static void dfs(int n){
+        if(n == 0)return;
+        System.out.println(n%10);
+        dfs(n/10);
+        
+    }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		dfs(123);
 	}
 
 }
