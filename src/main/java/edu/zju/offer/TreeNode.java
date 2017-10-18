@@ -1,11 +1,11 @@
 package edu.zju.offer;
 
 public class TreeNode {
-    int val = 0;
+    String val = "";
     TreeNode left = null;
     TreeNode right = null;
 
-    public TreeNode(int val) {
+    public TreeNode(String val) {
         this.val = val;
 
     }

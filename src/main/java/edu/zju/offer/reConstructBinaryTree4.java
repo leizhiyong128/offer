@@ -1,11 +1,11 @@
 package edu.zju.offer;
 
-class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
-}
+//class TreeNode {
+//     int val;
+//     TreeNode left;
+//     TreeNode right;
+//     TreeNode(int x) { val = x; }
+//}
 public class reConstructBinaryTree4 {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         return help(pre, in, 0, pre.length-1, 0, in.length-1);
